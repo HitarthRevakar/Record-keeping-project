@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+h1{margin: 0;text-transform: uppercase;}
+.header {background-color: rgb(37, 56, 84);color: #ffffff; padding: 14px;width: 100% !important;}
+
+.form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 10px;
+
+}
+
+.data{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+margin-top: 20px;
+}
+
+.data-val{
+display: flex;
+justify-content: space-between;
+width: 50%;
+padding: 0px 20px 0px 20px;
+border-radius: 8px;
+margin: 5px;
+background-color: rgba(245, 244, 240, 0.937);
+box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.clear-btn{
+  height: 40px;
+  margin-top: 7px !important;
+  border-radius: 12px !important;
+}
